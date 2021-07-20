@@ -5,7 +5,7 @@ services:
         ports: 
         - "3307:3306"
         volumes: 
-        - /data/atlassian-mysql:/var/lib/mysql
+        - /data/atlassian-mysql:/var/atlassian/mysql
         environment: 
         - MYSQL_ROOT_PASSWORD=atlassian
         restart: always
